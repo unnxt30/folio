@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>unnxt30</title>
+    <link>https://unnxt30.github.io/folio/</link>
+    <description>Recent content on unnxt30</description>
+    <image>
+      <title>unnxt30</title>
+      <url>https://unnxt30.github.io/folio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://unnxt30.github.io/folio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.140.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 31 Dec 2024 11:30:03 +0000</lastBuildDate>
+    <atom:link href="https://unnxt30.github.io/folio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://unnxt30.github.io/folio/about/</link>
+      <pubDate>Tue, 31 Dec 2024 11:30:03 +0000</pubDate>
+      <guid>https://unnxt30.github.io/folio/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a third-year student at Shiv Nadar University, majoring in Computer Science &amp;amp; Engineering.
+My Go-to programming language is GO, but I&amp;rsquo;m a generalist who likes working on cool projects and open to learning new technologies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My 1st post</title>
+      <link>https://unnxt30.github.io/folio/posts/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>https://unnxt30.github.io/folio/posts/</guid>
+      <description>Desc Text.</description>
+    </item>
+  </channel>
+</rss>
