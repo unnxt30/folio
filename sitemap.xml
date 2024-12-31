@@ -2,21 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://unnxt30.github.io/about/</loc>
+    <loc>https://unnxt30.github.io/folio/about/</loc>
     <lastmod>2024-12-31T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://unnxt30.github.io/</loc>
+    <loc>https://unnxt30.github.io/folio/</loc>
     <lastmod>2024-12-31T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://unnxt30.github.io/tags/first/</loc>
+    <loc>https://unnxt30.github.io/folio/tags/first/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://unnxt30.github.io/posts/</loc>
+    <loc>https://unnxt30.github.io/folio/posts/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://unnxt30.github.io/tags/</loc>
+    <loc>https://unnxt30.github.io/folio/tags/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://unnxt30.github.io/categories/</loc>
+    <loc>https://unnxt30.github.io/folio/categories/</loc>
   </url>
 </urlset>

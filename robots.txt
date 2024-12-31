@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://unnxt30.github.io/sitemap.xml
+Sitemap: https://unnxt30.github.io/folio/sitemap.xml
