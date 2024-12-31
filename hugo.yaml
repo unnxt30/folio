@@ -1,4 +1,4 @@
-baseURL: "https://unnxt30.github.io/"
+baseURL: "https://unnxt30.github.io/folio"
 title: unnxt30
 paginate: 5
 theme: PaperMod
@@ -57,7 +57,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Unnat Sharma
     subtitle: "dev in the making"
-    imageUrl: "/profile.jpeg"
+    imageUrl: "/folio/pfp.jpeg"
     imageWidth: 300
     imageHeight: 300
     imageTitle: my image
@@ -131,3 +131,9 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+
+deployment: 
+  targets:
+   -  name: "production"
+      URL : "gs://hugo-portfolio-unnxt"
