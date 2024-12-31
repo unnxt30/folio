@@ -54,10 +54,10 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: true# needs to be explicitly set
+    enabled: true # needs to be explicitly set
     title: Unnat Sharma
     subtitle: "dev in the making"
-    imageUrl: "/pfp.jpeg"
+    imageUrl: "/profile.jpeg"
     imageWidth: 300
     imageHeight: 300
     imageTitle: my image
