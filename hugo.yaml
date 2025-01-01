@@ -14,10 +14,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Unnat's Blog
+  description: "Portfolio"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: Unnat Sharma
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -57,7 +57,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Unnat Sharma
     subtitle: "dev in the making"
-    imageUrl: "/folio/pfp.jpeg"
+    imageUrl: "/pfp.jpeg"
     imageWidth: 300
     imageHeight: 300
     imageTitle: my image
