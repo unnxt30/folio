@@ -22,7 +22,7 @@ ShowReadingTime: false
 ShowBreadCrumbs: false 
 ShowPostNavLinks: false
 ShowWordCount: false
-ShowRssButtonInSectionTermList: true
+ShowRssButtonInSectionTermList: false
 UseHugoToc: true
 cover:
     image: "<image path/url>" # image path/url
