@@ -75,10 +75,10 @@ params:
   socialIcons:
     - name: linkedin
       url: "https://linkedin.com/in/unnxt30"
-      favicon: "/linkedin.svg"
+      favicon: "/linkedin.ico"
     - name: github
       url: "https://github.com/unnxt30"
-      favicon: "/github.svg"
+      favicon: "/github.ico" 
 
   analytics:
     google:
