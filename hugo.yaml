@@ -47,7 +47,7 @@ params:
     favicon16x16: "/favicon-16x16.png"
     favicon32x32: "/favicon-32x32.png"
     apple_touch_icon: "/apple-touch-icon.png"
-    safari_pinned_tab: "<link / abs url>"
+    safari_pinned_tab: "/favicon-16x16.png"
 
   label:
     text: "unnxt30"
@@ -75,10 +75,8 @@ params:
   socialIcons:
     - name: linkedin
       url: "https://linkedin.com/in/unnxt30"
-      favicon: "/linkedin.ico"
     - name: github
       url: "https://github.com/unnxt30"
-      favicon: "/github.ico" 
 
   analytics:
     google:
