@@ -131,9 +131,3 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
-
-
-deployment: 
-  targets:
-   -  name: "production"
-      URL : "gs://hugo-portfolio-unnxt"
