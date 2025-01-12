@@ -35,6 +35,13 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+Hi, I’m a third-year Computer Science & Engineering student at Shiv Nadar University with a passion for solving challenging problems. My main programming language is Go, and I’m currently diving into systems programming through the book [*Crafting Interpreters*](https://craftinginterpreters.com).
 
-I'm a third-year student at Shiv Nadar University, majoring in Computer Science & Engineering.
-My Go-to programming language is GO, but I'm a generalist who likes working on cool projects and open to learning new technologies.
+I’m on the lookout for opportunities where I can contribute to solving real-world problems and see the impact of my work in action.
+
+### What I Love:
+- **Programming:** Go, Docker, Cloud, Systems Programming  
+- **Miscellaneous:** Reading, movies, football, and, of course, coffee!  
+
+Let’s connect and create something meaningful together!
+

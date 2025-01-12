@@ -2,31 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>unnxt30</title>
-    <link>http://localhost:1313/folio/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on unnxt30</description>
     <image>
       <title>unnxt30</title>
-      <url>http://localhost:1313/folio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/folio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.134.2</generator>
     <language>en</language>
     <lastBuildDate>Tue, 31 Dec 2024 11:30:03 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/folio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/folio/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Tue, 31 Dec 2024 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/folio/about/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m a third-year student at Shiv Nadar University, majoring in Computer Science &amp;amp; Engineering.
-My Go-to programming language is GO, but I&amp;rsquo;m a generalist who likes working on cool projects and open to learning new technologies.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Hi, I’m a third-year Computer Science &amp;amp; Engineering student at Shiv Nadar University with a passion for solving challenging problems. My main programming language is Go, and I’m currently diving into systems programming through the book &lt;a href=&#34;https://craftinginterpreters.com&#34;&gt;&lt;em&gt;Crafting Interpreters&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I’m on the lookout for opportunities where I can contribute to solving real-world problems and see the impact of my work in action.&lt;/p&gt;
+&lt;h3 id=&#34;what-i-love&#34;&gt;What I Love:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Programming:&lt;/strong&gt; Go, Docker, Cloud, Systems Programming&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Miscellaneous:&lt;/strong&gt; Reading, movies, football, and, of course, coffee!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let’s connect and create something meaningful together!&lt;/p&gt;</description>
     </item>
     <item>
-      <title>My 1st post</title>
-      <link>http://localhost:1313/folio/posts/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/folio/posts/</guid>
-      <description>Desc Text.</description>
+      <title>Posts</title>
+      <link>http://localhost:1313/posts/</link>
+      <pubDate>Tue, 31 Dec 2024 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/posts/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/project-cover.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Tue, 31 Dec 2024 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/project-cover.jpg&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
