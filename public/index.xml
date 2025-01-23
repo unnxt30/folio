@@ -35,11 +35,159 @@
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/project-cover.jpg&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Projects</title>
+      <title></title>
       <link>http://localhost:1313/projects/</link>
-      <pubDate>Tue, 31 Dec 2024 11:30:03 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/project-cover.jpg&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;!-- ---
+title: &#34;Projects&#34;
+date: 2024-12-31T11:30:03+00:00
+weight: 1
+# aliases: [&#34;/first&#34;]
+# tags: [&#34;first&#34;]
+author: &#34;unnat sharma&#34;
+# author: [&#34;Me&#34;, &#34;You&#34;] # multiple authors
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: true
+comments: false
+description: &#34;&#34;
+canonicalURL: &#34;https://canonical.url/to/page&#34;
+disableHLJS: true # to disable highlight-js
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: false 
+ShowReadingTime: false
+ShowBreadCrumbs: false 
+ShowPostNavLinks: false
+ShowWordCount: false
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: &#34;/project-cover.jpg&#34; # image path/url
+    alt: &#34;construction&#34; # alt text
+    caption: &#34;&lt;text&gt;&#34; # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: false # only hide on current single page
+editPost:
+    URL: &#34;https://github.com/&lt;path_to_repo&gt;/content&#34;
+    Text: &#34;Suggest Changes&#34; # edit text
+    appendFilePath: true # to append file path to Edit link
+--- --&gt;
+&lt;!-- ![](/project-cover.jpg) --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+  &lt;meta charset=&#34;UTF-8&#34;&gt;
+  &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+  &lt;title&gt;Experience &amp; Projects&lt;/title&gt;
+  &lt;style&gt;
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px 20px;
+      position: relative;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 60px;
+      font-weight: 500;
+    }
+    .project {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 200px;
+      position: relative;
+      opacity: 0;
+      transform: translateY(100px);
+      transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .project.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .project:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+    .project-content {
+      flex: 0 1 45%;
+      z-index: 2;
+    }
+    .project-image {
+      flex: 0 1 50%;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      z-index: 2;
+    }
+    .project-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .project h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .project h3 {
+      color: #FFFFFF;
+      font-size: 1rem;
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+    .project p {
+      color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+    #lineCanvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      z-index: 1;
+    }
+    @media (max-width: 768px) {
+      .project {
+        flex-direction: column;
+        margin-bottom: 100px;
+      }
+      .project:nth-child(even) {
+        flex-direction: column;
+      }
+      .project-content,
+      .project-image {
+        flex: 0 1 100%;
+      }
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;canvas id=&#34;lineCanvas&#34;&gt;&lt;/canvas&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;h1&gt;Projects&lt;/h1&gt;
+
+    &lt;div class=&#34;project&#34;&gt;
+      &lt;div class=&#34;project-content&#34;&gt;
+        &lt;h2&gt;Businessconclave.in&lt;/h2&gt;
+        &lt;h3&gt;Web Development Project, 2024&lt;/h3&gt;
+        &lt;p&gt;Designed and implemented a robust university event portal using Next.JS, TypeScript, and Prisma ORM for seamless database interactions. The platform featured ticketing, Google OAuth2.0 authentication for 200+ users, and hybrid file storage with AWS S3 and Cloudflare R2, boosting event attendance by 40%.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

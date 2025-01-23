@@ -1,0 +1,279 @@
+<!-- ---
+title: "Projects"
+date: 2024-12-31T11:30:03+00:00
+weight: 1
+# aliases: ["/first"]
+# tags: ["first"]
+author: "unnat sharma"
+# author: ["Me", "You"] # multiple authors
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: true
+comments: false
+description: ""
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlight-js
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: false 
+ShowReadingTime: false
+ShowBreadCrumbs: false 
+ShowPostNavLinks: false
+ShowWordCount: false
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "/project-cover.jpg" # image path/url
+    alt: "construction" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: false # only hide on current single page
+editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+--- -->
+<!-- ![](/project-cover.jpg) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experience & Projects</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px 20px;
+      position: relative;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 60px;
+      font-weight: 500;
+    }
+    .project {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 200px;
+      position: relative;
+      opacity: 0;
+      transform: translateY(100px);
+      transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .project.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .project:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+    .project-content {
+      flex: 0 1 45%;
+      z-index: 2;
+    }
+    .project-image {
+      flex: 0 1 50%;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      z-index: 2;
+    }
+    .project-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .project h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .project h3 {
+      color: #FFFFFF;
+      font-size: 1rem;
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+    .project p {
+      color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+    #lineCanvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      z-index: 1;
+    }
+    @media (max-width: 768px) {
+      .project {
+        flex-direction: column;
+        margin-bottom: 100px;
+      }
+      .project:nth-child(even) {
+        flex-direction: column;
+      }
+      .project-content,
+      .project-image {
+        flex: 0 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <canvas id="lineCanvas"></canvas>
+  <div class="container">
+    <h1>Projects</h1>
+
+    <div class="project">
+      <div class="project-content">
+        <h2>Businessconclave.in</h2>
+        <h3>Web Development Project, 2024</h3>
+        <p>Designed and implemented a robust university event portal using Next.JS, TypeScript, and Prisma ORM for seamless database interactions. The platform featured ticketing, Google OAuth2.0 authentication for 200+ users, and hybrid file storage with AWS S3 and Cloudflare R2, boosting event attendance by 40%.</p>
+      </div>
+      <div class="project-image">
+        <img src="https://source.unsplash.com/800x600/?conference,technology" alt="Business Conference">
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-content">
+        <h2>Zippy</h2>
+        <h3>URL Shortener, 2024</h3>
+        <p>Created a high-performance URL shortening service with Golang and HTMX, featuring server-side rendering and Redis Cloud for key-value storage. Deployed on Google Cloud Run, the service supported automatic scaling, secret management, and zero-downtime updates.</p>
+      </div>
+      <div class="project-image">
+        <img src="https://source.unsplash.com/800x600/?coding,cloud" alt="Code and Cloud">
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-content">
+        <h2>RAGChat</h2>
+        <h3>AI-Powered Chatbot, 2024</h3>
+        <p>Developed an AI-driven chatbot capable of parsing and answering queries from large PDFs. Built with FastAPI, React, and LangChain, it integrated AWS S3 for storage and leveraged modern LLM APIs for precise and fast responses, reducing query time by 65%.</p>
+      </div>
+      <div class="project-image">
+        <img src="https://source.unsplash.com/800x600/?chatbot,ai" alt="AI Chatbot">
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-content">
+        <h2>Load Balancer</h2>
+        <h3>System Design, 2024</h3>
+        <p>Engineered a load balancer in Go that efficiently distributed traffic using a round-robin algorithm. Included real-time server health monitoring and session persistence, ensuring high availability and reliability across distributed systems.</p>
+      </div>
+      <div class="project-image">
+        <img src="https://source.unsplash.com/800x600/?servers,network" alt="Load Balancer">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    class LineAnimation {
+      constructor() {
+        this.canvas = document.getElementById('lineCanvas');
+        this.ctx = this.canvas.getContext('2d');
+        this.projects = [];
+        this.animationFrameId = null;
+
+        this.resize();
+        window.addEventListener('resize', () => this.resize());
+        window.addEventListener('scroll', () => this.updateProjectPositions());
+
+        this.init();
+      }
+
+      resize() {
+        this.canvas.width = window.innerWidth;
+        this.canvas.height = window.innerHeight;
+        this.updateProjectPositions();
+      }
+
+      updateProjectPositions() {
+        this.projects = Array.from(document.querySelectorAll('.project')).map(project => ({
+          element: project,
+          rect: project.getBoundingClientRect(),
+          id: project.dataset.project
+        }));
+      }
+
+      init() {
+        this.updateProjectPositions();
+        this.animate();
+      }
+
+      animate() {
+        this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        this.ctx.strokeStyle = 'rgba(255,255,255,0.1)';
+        this.ctx.lineWidth = 1.5;
+
+        for (let i = 0; i < this.projects.length - 1; i++) {
+          const current = this.projects[i];
+          const next = this.projects[i + 1];
+
+          if (current.rect.bottom < 0 || next.rect.top > window.innerHeight) continue;
+
+          const startX = current.rect.left + current.rect.width / 2;
+          const startY = current.rect.bottom;
+          const endX = next.rect.left + current.rect.width / 2;
+          const endY = next.rect.top;
+
+          this.ctx.beginPath();
+          this.ctx.moveTo(startX, startY);
+
+          const controlPoint1X = startX + (endX - startX) * 0.3;
+          const controlPoint1Y = startY + (endY - startY) * 0.4;
+          const controlPoint2X = startX + (endX - startX) * 0.7;
+          const controlPoint2Y = startY + (endY - startY) * 0.6;
+
+          this.ctx.bezierCurveTo(
+            controlPoint1X, controlPoint1Y, 
+            controlPoint2X, controlPoint2Y, 
+            endX, endY
+          );
+
+          this.ctx.stroke();
+        }
+
+        this.animationFrameId = requestAnimationFrame(() => this.animate());
+      }
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '-100px'
+    });
+
+    document.querySelectorAll('.project').forEach(project => {
+      observer.observe(project);
+    });
+
+    new LineAnimation();
+  </script>
+</body>
+</html>
